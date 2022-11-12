@@ -1,0 +1,10 @@
+.grid_square {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: black;
+}
+
+.grid_column {
+    display: flex;
+}
