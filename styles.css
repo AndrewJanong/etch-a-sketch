@@ -1,8 +1,53 @@
-.grid_square {
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+body {
+    margin: 0;
+}
+
+#title {
+    font-family: 'Russo One', sans-serif;
+    font-size: 120px;
+    margin: 0;
+}
+
+.header {
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellowgreen;
+}
+
+.body {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    margin: 64px;
+}
+
+.option-buttons {
     height: 100px;
-    width: 100px;
-    margin: 20px;
-    background-color: black;
+    width: 300px;
+    padding: 12px 24px;
+    margin: 0 36px;
+    border-radius: 12px;
+    font-size: 36px;
+    font-family: 'Asap', sans-serif;
+
+}
+
+.grid_square {
+    margin: 0;
+    box-sizing: border-box;
+    margin: -1px;
+    border: 2px solid black;
+    background-color: white;
 }
 
 .grid_column {
